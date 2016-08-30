@@ -15,7 +15,7 @@ Features
 
 How to use?
 --------
-1. Create test cases   
+1. Create test cases  
 Format of a tc file is 
 ```
 INPUT
