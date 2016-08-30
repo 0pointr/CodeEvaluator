@@ -49,6 +49,6 @@ Yes, of course, provided you keep the original copyright information intact.
 
 ___
 * Notes
-  * Currently the compiled file name to be run is hardcoded as 'a.exe'. That is easily customizable in ExecutionManager.java
+  * Currently the compiled file name to be run is hard-coded as 'a.exe'. That is easily customizable in ExecutionManager.java
   * The ExecutionManager implementation executes by means of Runtime.getRuntime().exec(). This has some extra overheads and may result in logging more execution time that the solution actually took. This is possibly linear in amount of input/output. A better approach would be using the newer ProcessBuilder class.
-  * Sometimes compilation has security problems in Win7. I have no idea why.
+  * Sometimes compilation of solution files has security problems in Win7. I have no idea why.
